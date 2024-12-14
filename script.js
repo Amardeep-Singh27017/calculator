@@ -6,7 +6,7 @@ let arr = Array.from(buttons);
 arr.forEach(button =>{
 
     button.addEventListener('mousedown',()=>{
-        button.style.transform = 'scale(1.2)';
+        button.style.transform = 'scale(0.9)';
         button.style.backgroundColor ="rgb(84,84,84,0.9)";
       })
       button.addEventListener('mouseup',()=>{
